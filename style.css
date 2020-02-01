@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../form/white-headphone-1037992.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.form{
+    text-align: center;
+  width: 35%;  
+  border: 2px solid #fff;
+  position: relative;
+  top: 10%;
+  left: 3%;
+  background: #8fecff;
+  border-radius: 10px;
+  height: 67%;
+  display: inline-block;
+}
+
+h1{
+    font-family: 'Acme', sans-serif;
+    margin: 20 auto;
+    color: #f59e9b;
+    color: #fff;
+}
+
+.form label {
+    color: #fff;
+    position: absolute;
+    left: 30;
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
+
+}
+
+.form input{
+    background: none;
+    width: 80%;
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 3px;
+    font-family: 'Acme', sans-serif;
+    border: 0px solid #000;
+    border-bottom: 2px solid #f59e9b;
+    border-radius: 5px;
+    font-size: 15px;
+    
+}
+
+.form div {
+
+    margin: 10px;
+}
+.form .image{
+
+    margin: 40px;
+    margin-top: 10px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+form #fileToUpload{
+    
+    border: none;
+    text-align: left;
+    position: absolute;
+    margin-top: 5px;
+    left: 40px;
+    border-bottom: #f59e9b solid 2px;
+
+   
+}
+ form button{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;  
+    margin: 10px;
+    padding: 30px;
+    margin-top: 0px; 
+     border: none;
+     border-radius: 50%;
+     font-size: 20px;
+     border: 2px solid #8fecff;
+     color: #f59e9b;
+     font-family: 'Acme', sans-serif;
+     font-weight: bold;
+}
+.show{
+    position: absolute;
+    right: 150px;
+    top: 50px;
+    font-size: 30px;
+}
+.show h1{
+    color :#fff;
+}
